@@ -9,7 +9,7 @@ void pesonDataInit(String name, String address, String age, String country) {
 }
 
 String personCountryUpdate(String country) {
-  personData[country] = country;
+  personData["country"] = country;
   return country;
 }
 
